@@ -1,0 +1,30 @@
+# Ігноруємо операційні системи
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Ігноруємо скомпільовані файли
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Ігноруємо директорії для зібраних файлів
+/build/
+bin/
+debug/
+release/
+
+# Ігноруємо файли налаштувань IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ігноруємо кеші та інші тимчасові файли
+*.log
+*.tmp
+*.swp
+*.swo
